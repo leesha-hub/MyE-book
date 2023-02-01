@@ -31,7 +31,7 @@ public class MemberController {
 	@Inject
 	private MemberServiceImpl service;
 
-	// 카테고리별 상품 리스트
+	//  카테고리별 상품 리스트
 	// @RequestMapping(value = "home.do", method = RequestMethod.GET)
 	// public String getList(@RequestParam("cn") int cate_name, @RequestParam("l")
 	// int level, Model model)
