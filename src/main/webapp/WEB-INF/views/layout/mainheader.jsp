@@ -263,55 +263,55 @@ height: 100%; right: 0; top: 0; background-color: rgba(128,128,128,0.66); }
          <div>
             <a href="#">             
                <img src="http://dummyimage.com/464x16:9/3498db/fff.gif" alt="">
-               <h2>[#1]The greatest breakthroughs in gaming history of the past 25 years</h2>
+               <h2>[#1]</h2>
             </a>
          </div>
          <div>
             <a href="#">
               <img src="http://dummyimage.com/464x16:9/3498db/fff.gif" alt="">
-               <h2>Best game reboots</h2>
+               <h2>[#2]</h2>
             </a>
          </div>
          <div>
             <a href="#">
                <img src="http://dummyimage.com/464x16:9/3498db/fff.gif" alt="">
-               <h2>[#3]The greatest breakthroughs</h2>
+               <h2>[#3]</h2>
             </a>
          </div>
          <div>
             <a href="#">
               <img src="http://dummyimage.com/464x16:9/3498db/fff.gif" alt="">
-               <h2>[#4]The greatest breakthroughs</h2>
+               <h2>[#4]</h2>
             </a>
          </div>
          <div>
             <a href="#">               
                <img src="http://dummyimage.com/464x16:9/3498db/fff.gif" alt="">
-               <h2>[#5]The greatest breakthroughs in gaming</h2>
+               <h2>[#5]</h2>
             </a>
          </div>
          <div>
             <a href="#">
                <img src="http://dummyimage.com/464x16:9/3498db/fff.gif" alt="">
-               <h2>[#6]The greatest breakthroughs in gaming history of</h2>
+               <h2>[#6]</h2>
             </a>
          </div>
          <div>
             <a href="#">              
                <img src="http://dummyimage.com/464x16:9/3498db/fff.gif" alt="">
-               <h2>[#7]The greatest breakthroughs in gaming history of the past</h2>
+               <h2>[#7]</h2>
             </a>
          </div>
          <div>
             <a href="#">              
                <img src="http://dummyimage.com/464x16:9/3498db/fff.gif" alt="">
-               <h2>[#8]The greatest breakthroughs in gaming history of the past 25 years</h2>
+               <h2>[#8]</h2>
             </a>
          </div>
          <div>
             <a href="#">               
                <img src="http://dummyimage.com/464x16:9/3498db/fff.gif" alt="">
-               <h2>[#9]The greatest breakthroughs in gaming history of the past 25 years</h2>
+               <h2>[#9]</h2>
             </a>
          </div>
       </div>
