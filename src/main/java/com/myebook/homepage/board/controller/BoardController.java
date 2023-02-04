@@ -33,7 +33,8 @@ public class BoardController {
 
 	// 게시글 리스트 가져오기
 	@RequestMapping(value = "/getBoardList.do", method = RequestMethod.GET)
-	public String getBoardList(Model model, @RequestParam(required = false, defaultValue = "1") int page,
+	public String getBoardList(Model model, 
+			@RequestParam(required = false, defaultValue = "1") int page,
 			@RequestParam(required = false, defaultValue = "1") int range,
 			@RequestParam(required = false, defaultValue = "title") String searchType,
 			@RequestParam(required = false) String keyword, @RequestParam("cate_cd") String cate_cd,
@@ -42,9 +43,7 @@ public class BoardController {
 		MemberDTO member = (MemberDTO) session.getAttribute("member");
 		boolean admin_status = member.getAdmin_status();
 		model.addAttribute("admin_status", admin_status);
-
-		System.out.println(cate_cd);
-
+		
 		Search search = new Search();
 		search.setSearchType(searchType);
 		search.setKeyword(keyword);
@@ -59,13 +58,11 @@ public class BoardController {
 		pagination.pageInfo(page, range, listCnt);
 
 		model.addAttribute("pagination", search);
-		System.out.println(cate_cd + "실종되신게 이쯤이십니까?");
 		model.addAttribute("boardList", boardService.getBoardList(cate_cd, search));
 		model.addAttribute("cate_cd", cate_cd);
 		model.addAttribute("listCnt", listCnt);
 
 		return "board/index";
-
 	}
 
 	// 게시글 입력 폼 이동
@@ -79,7 +76,6 @@ public class BoardController {
 		model.addAttribute("cate_cd", cate_cd);
 
 		return "board/insertForm";
-
 	}
 
 	// 게시글 입력
@@ -156,5 +152,4 @@ public class BoardController {
 		String referrer = request.getHeader("Referer");
 		request.getSession().setAttribute("prevPage", referrer);
 	}
-
 }

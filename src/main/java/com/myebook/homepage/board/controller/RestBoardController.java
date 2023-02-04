@@ -86,5 +86,4 @@ public class RestBoardController {
 		String referrer = request.getHeader("Referer");
 		request.getSession().setAttribute("prevPage", referrer);
 	}
-
 }

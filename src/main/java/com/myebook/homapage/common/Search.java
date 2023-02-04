@@ -20,5 +20,4 @@ public class Search extends Pagination {
 	public void setKeyword(String keyword) {
 		this.keyword = keyword;
 	}
-
 }

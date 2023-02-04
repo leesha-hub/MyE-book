@@ -52,7 +52,6 @@ public class MemberController {
 	@RequestMapping(value = "/callback")
 	public String navLogin(HttpServletRequest request) throws Exception {
 		return "member/callback";
-
 	}
 
 	// 네이버 로그인 정보 받아오기
@@ -234,5 +233,4 @@ public class MemberController {
 	public String move_myebook() throws Exception {
 		return "include/shop_manage";
 	}
-
 }
